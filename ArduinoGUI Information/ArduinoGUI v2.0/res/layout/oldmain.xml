@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/linearLayout1">
+	<RelativeLayout android:layout_width="fill_parent"
+		android:id="@+id/relativeLayout2" android:layout_height="wrap_content">
+		<RelativeLayout android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:id="@+id/relativeLayout1">
+			<Button android:layout_alignRight="@+id/pin7"
+				android:layout_alignLeft="@+id/pin7" android:layout_height="wrap_content"
+				android:id="@+id/sendCommandButton" android:layout_width="wrap_content"
+				android:text="@string/sendCommand" android:layout_below="@+id/pin7" />
+			<CheckBox android:layout_alignTop="@+id/sendCommandButton"
+				android:text="@string/repeatedPolling" android:layout_toRightOf="@+id/sendCommandButton"
+				android:layout_alignBottom="@+id/sendCommandButton" android:id="@+id/repeatedPolling"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<TextView android:layout_alignTop="@+id/repeatedPolling"
+				android:layout_toRightOf="@+id/repeatedPolling"
+				android:layout_alignBottom="@+id/repeatedPolling" android:id="@+id/TextView01"
+				android:layout_height="50dip" android:layout_width="100dip"
+				android:text="@string/empty" />
+			<TextView android:layout_alignTop="@+id/TextView01"
+				android:gravity="center_vertical" android:layout_toRightOf="@+id/TextView01"
+				android:layout_alignBottom="@+id/TextView01" android:id="@+id/pollingRateLabel"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:text="@string/pollRate" android:textSize="8pt" />
+			<EditText android:layout_alignTop="@+id/pollingRateLabel"
+				android:id="@+id/pollingRate" android:layout_toRightOf="@+id/pollingRateLabel"
+				android:layout_alignBottom="@+id/pollingRateLabel"
+				android:layout_height="wrap_content" android:text="@string/empty"
+				android:layout_width="100dip" android:inputType="numberSigned" />
+			<CheckBox android:layout_alignTop="@+id/pin8" android:text="@string/pin9"
+				android:layout_toRightOf="@+id/pin8" android:id="@+id/pin9"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin9" android:text="@string/pin10"
+				android:layout_toRightOf="@+id/pin9" android:id="@+id/pin10"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin10" android:text="@string/pin11"
+				android:layout_toRightOf="@+id/pin10" android:id="@+id/pin11"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin11" android:text="@string/pin12"
+				android:layout_toRightOf="@+id/pin11" android:id="@+id/pin12"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin12" android:text="@string/pin13"
+				android:layout_toRightOf="@+id/pin12" android:layout_alignBottom="@+id/pin12"
+				android:id="@+id/pin13" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin1" android:text="@string/pin2"
+				android:layout_toRightOf="@+id/pin1" android:id="@+id/pin2"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/pin0"
+				android:layout_height="wrap_content" android:text="@string/pin0"
+				android:layout_alignTop="@+id/pin2" android:layout_alignBottom="@+id/pin2"
+				android:layout_below="@+id/commandSelection" />
+			<CheckBox android:layout_alignTop="@+id/pin2" android:text="@string/pin3"
+				android:layout_toRightOf="@+id/pin2" android:id="@+id/pin3"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin3" android:text="@string/pin4"
+				android:layout_toRightOf="@+id/pin3" android:id="@+id/pin4"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin4" android:text="@string/pin5"
+				android:layout_toRightOf="@+id/pin4" android:id="@+id/pin5"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<CheckBox android:layout_alignTop="@+id/pin5" android:text="@string/pin6"
+				android:layout_toRightOf="@+id/pin5" android:id="@+id/pin6"
+				android:layout_height="wrap_content" android:layout_width="wrap_content" />
+			<RadioGroup android:layout_height="wrap_content"
+				android:layout_alignParentTop="true" android:layout_width="wrap_content"
+				android:id="@+id/commandSelection">
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/analogRead" android:id="@+id/analogReadButton"
+					android:layout_height="wrap_content" />
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/analogWrite" android:id="@+id/analogWriteButton"
+					android:layout_height="wrap_content" />
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/digitalMode" android:id="@+id/digitalModeButton"
+					android:layout_height="wrap_content" />
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/digitalPull" android:id="@+id/digitalPullButton"
+					android:layout_height="wrap_content" />
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/digitalRead" android:id="@+id/digitalReadButton"
+					android:layout_height="wrap_content" />
+				<RadioButton android:layout_width="wrap_content"
+					android:text="@string/digitalWrite" android:id="@+id/digitalWriteButton"
+					android:layout_height="wrap_content" />
+			</RadioGroup>
+			<CheckBox android:text="@string/pin1" android:id="@+id/pin1"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/dwToggle" android:layout_toRightOf="@+id/pin0" />
+			<CheckBox android:text="@string/pin7" android:id="@+id/pin7"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/pin0" android:layout_alignLeft="@+id/pin0"
+				android:layout_alignRight="@+id/pin0" />
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/pin8"
+				android:layout_height="wrap_content" android:text="@string/pin8"
+				android:layout_toRightOf="@+id/pin7" android:layout_alignTop="@+id/pin7"
+				android:layout_alignBottom="@+id/pin7" />
+			<TextView android:layout_alignRight="@+id/apToggle"
+				android:layout_toRightOf="@+id/commandSelection" android:id="@+id/textView1"
+				android:layout_alignLeft="@+id/apToggle" android:layout_height="55dip"
+				android:layout_alignParentTop="true" android:layout_width="65dip"
+				android:text="@string/empty" android:layout_below="@+id/apToggle" />
+			<EditText android:id="@+id/awValue"
+				android:layout_alignRight="@+id/textView1" android:layout_alignLeft="@+id/textView1"
+				android:layout_height="wrap_content" android:text="@string/empty"
+				android:layout_width="wrap_content" android:layout_below="@+id/textView1"
+				android:inputType="numberSigned" />
+			<ToggleButton android:text="ToggleButton"
+				android:layout_alignRight="@+id/awValue" android:layout_alignLeft="@+id/awValue"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/awValue" android:id="@+id/dmToggle" />
+			<EditText android:layout_height="wrap_content" android:layout_toRightOf="@+id/dmToggle" android:layout_alignTop="@+id/dmToggle" android:layout_alignBottom="@+id/dmToggle" android:id="@+id/email" android:text="@string/empty" android:layout_width="300dip" android:layout_marginLeft="20dip" android:layout_marginRight="20dip"></EditText>
+			<Button android:layout_height="wrap_content" android:layout_below="@+id/email" android:layout_width="wrap_content" android:layout_alignLeft="@+id/email" android:layout_alignRight="@+id/email" android:id="@+id/sendEmail" android:text="@string/sendCommand"></Button>
+			<TextView android:layout_above="@+id/email" android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_alignLeft="@+id/email" android:layout_alignRight="@+id/email" android:layout_height="50dip" android:text="@string/emailLabel" android:gravity="center" android:textSize="8pt"></TextView>
+			<ToggleButton android:text="ToggleButton"
+				android:layout_alignRight="@+id/dmToggle" android:layout_alignLeft="@+id/dmToggle"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/dmToggle" android:id="@+id/dpToggle" />
+			<TextView android:layout_alignRight="@+id/dpToggle"
+				android:id="@+id/textView2" android:layout_alignLeft="@+id/dpToggle"
+				android:layout_height="50dip" android:layout_width="wrap_content"
+				android:text="@string/empty" android:layout_below="@+id/dpToggle" />
+			<ToggleButton android:text="ToggleButton"
+				android:layout_alignRight="@+id/textView2" android:layout_alignLeft="@+id/textView2"
+				android:layout_height="wrap_content" android:layout_width="wrap_content"
+				android:layout_below="@+id/textView2" android:id="@+id/dwToggle" />
+		</RelativeLayout>
+		<ScrollView android:layout_height="wrap_content"
+			android:layout_width="fill_parent" android:id="@+id/scrollView1"
+			android:layout_below="@+id/relativeLayout1">
+			<LinearLayout android:layout_width="fill_parent"
+				android:id="@+id/linearLayout2" android:layout_height="fill_parent">
+				<TextView android:layout_height="wrap_content"
+					android:gravity="right" android:id="@+id/outputDisplay"
+					android:layout_width="wrap_content" android:scrollbars="vertical"
+					android:text="@string/empty" />
+			</LinearLayout>
+		</ScrollView>
+		<FrameLayout android:layout_height="350dip" android:id="@+id/frameLayout1"
+			android:layout_marginTop="25dip" android:layout_width="fill_parent"
+			android:layout_marginLeft="50dip" android:layout_toRightOf="@+id/relativeLayout1"
+			android:layout_marginRight="25dip">
+			<edu.ucr.arduinogui.GraphView
+				android:id="@+id/graphView" android:layout_height="fill_parent"
+				android:layout_width="fill_parent" />
+
+		</FrameLayout>
+		<CheckBox android:layout_below="@+id/frameLayout1"
+			android:layout_alignLeft="@+id/frameLayout1" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/autoScale"
+			android:id="@+id/autoScaling" />
+
+		<TextView android:id="@+id/TextView02" android:layout_height="50dip"
+			android:layout_width="100dip" android:text="@string/empty"
+			android:layout_toRightOf="@+id/autoScaling" android:layout_alignTop="@+id/autoScaling"
+			android:layout_alignBottom="@+id/autoScaling" />
+
+		<TextView android:id="@+id/windowMinLabel"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_toRightOf="@+id/TextView02" android:layout_alignTop="@+id/TextView02"
+			android:layout_alignBottom="@+id/TextView02" android:textSize="8pt"
+			android:text="@string/windowMinLabel" android:gravity="center_vertical" />
+
+		<EditText android:id="@+id/windowMin" android:layout_height="wrap_content"
+			android:layout_toRightOf="@+id/windowMinLabel"
+			android:layout_alignTop="@+id/windowMinLabel"
+			android:layout_alignBottom="@+id/windowMinLabel"
+			android:layout_marginTop="5dip" android:text="@string/empty"
+			android:layout_width="75dip" android:inputType="numberSigned" />
+
+		<TextView android:id="@+id/TextView03" android:layout_height="50dip"
+			android:layout_width="50dip" android:text="@string/empty"
+			android:layout_toRightOf="@+id/windowMin" android:layout_alignTop="@+id/windowMin"
+			android:layout_alignBottom="@+id/windowMin" />
+
+		<TextView android:id="@+id/windowMaxLabel" android:textSize="8pt"
+			android:gravity="center_vertical" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:text="@string/windowMaxLabel"
+			android:layout_toRightOf="@+id/TextView03" android:layout_alignTop="@+id/TextView03"
+			android:layout_alignBottom="@+id/TextView03" />
+
+		<EditText android:id="@+id/windowMax" android:layout_height="wrap_content"
+			android:layout_width="wrap_content" android:layout_toRightOf="@+id/windowMaxLabel"
+			android:layout_alignTop="@+id/windowMaxLabel"
+			android:layout_alignBottom="@+id/windowMaxLabel" android:inputType="numberSigned" android:width="75dip"
+			android:paddingTop="5dip" android:text="@string/empty"/>
+
+		<TextView android:id="@+id/TextView04" android:layout_height="50dip"
+			android:layout_width="50dip" android:text="@string/empty"
+			android:layout_toRightOf="@+id/windowMax" android:layout_alignTop="@+id/windowMax"
+			android:layout_alignBottom="@+id/windowMax" />
+
+		<Button android:id="@+id/setWindowButton"
+			android:layout_height="wrap_content" android:layout_width="wrap_content"
+			android:layout_toRightOf="@+id/TextView04" android:layout_alignTop="@+id/TextView04"
+			android:layout_alignBottom="@+id/TextView04" android:text="@string/set"
+			android:textSize="8pt" android:width="75dip" />
+
+	</RelativeLayout>
+</LinearLayout>

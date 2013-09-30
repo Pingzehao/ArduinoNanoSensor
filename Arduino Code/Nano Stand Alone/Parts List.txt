@@ -1,0 +1,6 @@
+Arduino Nano - ATMega 328
+LCD - uOLED-96-G1
+Humidity - HIH-4030
+Digital Temperature - DS18B20
+Potentiometer - AD5706BN100-ND
+GPS - GR10/MN1010

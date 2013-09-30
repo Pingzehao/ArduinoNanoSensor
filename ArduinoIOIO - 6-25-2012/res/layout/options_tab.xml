@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/pollingRateLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/pollRate"
+                android:textSize="8pt" >
+            </TextView>
+
+            <EditText
+                android:id="@+id/pollingRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pollingRateLabel"
+                android:layout_alignRight="@+id/pollingRateLabel"
+                android:layout_below="@+id/pollingRateLabel"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:inputType="numberSigned"
+                android:text="@string/empty" >
+            </EditText>
+
+            <TextView
+                android:id="@+id/pinsLabel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pollingRate"
+                android:layout_alignRight="@+id/pollingRate"
+                android:layout_below="@+id/pollingRate"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/pinsLabel"
+                android:textSize="8pt" >
+            </TextView>
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/pinsLabel"
+                android:layout_alignRight="@+id/pinsLabel"
+                android:layout_below="@+id/pinsLabel"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/pin0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin0" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/pin1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin1" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/pin2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:text="@string/pin2" >
+                </CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout3"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout2"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/pin3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin3" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/pin4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin4" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/pin5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="5dip"
+                    android:text="@string/pin5" >
+                </CheckBox>
+            </LinearLayout>
+            
+			<LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/pin6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin6" >
+                </CheckBox>
+
+                <CheckBox
+                    android:id="@+id/pin7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:text="@string/pin7" >
+                </CheckBox>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout7"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+
+                <TextView
+                    android:id="@+id/windowMinLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center|center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/windowMinLabel"
+                    android:textSize="8pt" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/windowMin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:inputType="numberSigned"
+                    android:text="@string/empty" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout6"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout5"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+
+                <TextView
+                    android:id="@+id/windowMaxLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center|center_vertical"
+                    android:paddingBottom="15dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/windowMaxLabel"
+                    android:textSize="8pt" >
+                </TextView>
+
+                <EditText
+                    android:id="@+id/windowMax"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:inputType="numberSigned"
+                    android:text="@string/empty" >
+                </EditText>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout4"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout6"
+                android:gravity="center" >
+
+                <CheckBox
+                    android:id="@+id/autoScaling"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="10dip"
+                    android:gravity="center"
+                    android:text="@string/autoScale" >
+                </CheckBox>
+
+                <Button
+                    android:id="@+id/setWindowButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginTop="10dip"
+                    android:paddingLeft="10dip"
+                    android:paddingRight="10dip"
+                    android:text="@string/set"
+                    android:textSize="8pt"
+                    android:width="75dip" >
+                </Button>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout9"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout4"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+
+                <TextView
+                    android:id="@+id/autoEmailLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_gravity="center_vertical|center" 
+                    android:paddingBottom="15dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/emailLabel"
+                    android:textSize="8pt" />
+
+                <EditText
+                    android:id="@+id/autoEmail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:inputType="textEmailAddress"
+                    android:text="@string/empty" >
+                </EditText>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/startPollingButton"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout10"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:paddingBottom="10dip"
+                android:paddingTop="10dip"
+                android:text="@string/startPolling" >
+            </Button>
+
+            <LinearLayout
+                android:id="@+id/linearLayout10"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout9"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip" >
+
+                <TextView
+                    android:id="@+id/thresholdLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:layout_gravity="center_vertical|center"
+                    android:paddingBottom="15dip"
+                    android:paddingTop="15dip"
+                    android:text="@string/thresholdLabel"
+                    android:textSize="8pt" />
+
+                <EditText
+                    android:id="@+id/thresholdPercentage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_marginBottom="10dip"
+                    android:layout_marginTop="10dip"
+                    android:ems="10"
+                    android:inputType="numberDecimal"
+                    android:text="@string/empty" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:id="@+id/linearLayout1">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/relativeLayout2">
+            <TextView android:textSize="8pt" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingBottom="10dip" android:layout_marginBottom="10dip" android:layout_marginTop="10dip" android:paddingTop="10dip" android:text="@string/emailLabel" android:id="@+id/emailLabel"></TextView>
+            <EditText android:layout_marginLeft="10dip" android:layout_marginBottom="10dip" android:layout_marginTop="10dip" android:layout_marginRight="10dip" android:text="@string/empty" android:layout_height="wrap_content" android:id="@+id/email" android:layout_width="wrap_content" android:layout_below="@+id/emailLabel" android:layout_alignLeft="@+id/emailLabel" android:layout_alignRight="@+id/emailLabel" android:inputType="textEmailAddress"></EditText>
+            <Button android:id="@+id/sendEmailButton" android:text="@string/sendCommand" android:layout_marginBottom="10dip" android:layout_marginTop="10dip" android:layout_height="wrap_content" android:layout_width="fill_parent" android:layout_below="@+id/email" android:layout_alignLeft="@+id/email" android:layout_alignRight="@+id/email"></Button>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

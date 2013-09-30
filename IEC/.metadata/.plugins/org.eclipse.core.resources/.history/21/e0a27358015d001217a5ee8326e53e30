@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IEC Sensor</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="startPolling">Start Polling</string>
+    <string name="stopPolling">Stop Polling</string>
+
+</resources>

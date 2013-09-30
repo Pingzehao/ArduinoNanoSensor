@@ -1,0 +1,24 @@
+34.5 - Battery
+31 - IOIO
+3.5 - JST Cable
+1.5 - Battery Cable
+
+Width (IOIO plus battery plus cables) - 70.5
+PCB - 57
+Sensor - 23x23
+Humidity - 8.5 x 4.5
+Temperature - 3.5 x 3.5
+
+Humidity  - 10.5
+PCB + Pin - 4.2
+Bot of pcb to usb bot - 20.6
+Max Height = 36mm (Base of USB to top of humidity
+
+Length   
+End to USB end - 76.3
+PCB - 69.5
+
+barrel jack 11.7 diam
+usb  - 8
+
+top of usb USB dist from top - 29

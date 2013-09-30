@@ -1,0 +1,14 @@
+Keithley 238 source measure unit
+	Fixed 1.0V
+
+MFC - Alicat Scientific
+mc-50sccm-d/10m
+labview
+1v applied, current measured, labview converts to resistance
+mulitplexer selects between the 8.
+
+
+2nd time
+5 ppb
+25 ppb
+50 ppb

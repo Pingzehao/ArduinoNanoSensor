@@ -1,0 +1,13 @@
+1358026746223	Extracts string 'null' into R.string.startPolling
+1358026754531	Extracts string 'null' into R.string.stopPolling
+1358026774575	Change Layout
+1358027113493	Extracts string 'null' into R.string.pollingRate
+1358028578612	Extracts string 'null' into R.string.potResistLabel
+1358028613292	Extracts string 'null' into R.string.sensorResistLabel
+1358028716999	Extracts string 'null' into R.string.adcVoltLabel
+1358029575428	Extracts string 'null' into R.string.empty
+1358031959395	Rename resource 'iecsensor_layout.xml'
+1358031966756	Rename resource 'iecsensor_menu'
+1358034416270	Extracts string 'null' into R.string.tempLabel
+1358034432737	Extracts string 'null' into R.string.humidityLabel
+1358034527259	Extracts string 'null' into R.string.sensorLabel

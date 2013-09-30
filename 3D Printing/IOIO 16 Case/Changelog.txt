@@ -1,0 +1,16 @@
+Rev 4
+--------------------------------------------------------------------------------
+Reduced length by 5mm
+
+Rev 3
+--------------------------------------------------------------------------------
+Increased size of USB port hole on lid
+Reduced hook height on right side of case since it was slightly blocking the IOIO
+Fixed side piece on case to be fully connected
+
+Rev 2
+--------------------------------------------------------------------------------
+Removed piece from right side of lid that was getting blocked by components
+and placed on case.
+Reduced thickness of slide to make lid slide on freely
+Added another slot below the pcb slot to prevent pins from getting stuck on edges

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello, IOIO User!</string>
+    <string name="app_name">3pi Controller</string>
+    <string name="reset">Reset</string>
+    <string name="forwardButton">Forward</string>
+    <string name="back">Back</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="accel">Accelerometer Control:</string>
+    <string name="stop">Stop</string>
+    <string name="speed">Speed Control:</string>
+    <string name="relative">Relative Mode:</string>
+</resources>

@@ -1,0 +1,50 @@
+package com.example.iecsensor;
+
+import java.util.ArrayList;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+public class IECSensor extends Activity
+{
+	private MenuItem mMenu;
+	
+	private EditText mPollingRate;
+	private Button mPollingButton;
+	private TextView mPotText;
+	private TextView mSensorText;
+	private TextView mADCText;
+	
+	private ArrayList<Double> mPot = new ArrayList<Double>();
+	private ArrayList<Double> mSensor = new ArrayList<Double>();
+	private ArrayList<Double> mADC = new ArrayList<Double>();
+	
+	@Override
+	protected void onCreate(Bundle savedInstanceState)
+	{
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.iecsensor_layout);
+	
+		mPollingRate = (EditText) findViewById(R.id.pollingText);
+		mPollingButton = (Button) findViewById(R.id.pollingButton);
+		mPotText = (TextView) findViewById(R.id.potResistReadings);
+		mSensorText = (TextView) findViewById(R.id.sensorResistReadings);
+		mADCText = (TextView) findViewById(R.id.adcVoltReadings);
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
+		// Inflate the menu; this adds items to the action bar if it is
+		// present.
+		getMenuInflater().inflate(R.menu.iecsensor_layout, menu);
+		mMenu = menu.getItem(0);
+		return true;
+	}
+
+}

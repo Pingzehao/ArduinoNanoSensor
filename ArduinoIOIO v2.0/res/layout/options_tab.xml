@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/pollingRateLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/pollRate"
+            android:textSize="8pt" />
+
+        <EditText
+            android:id="@+id/pollingRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pollingRateLabel"
+            android:layout_alignRight="@+id/pollingRateLabel"
+            android:layout_below="@+id/pollingRateLabel"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:inputType="numberSigned"
+            android:text="@string/empty" >
+
+            <requestFocus />
+        </EditText>
+
+        <TextView
+            android:id="@+id/pinsLabel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pollingRate"
+            android:layout_alignRight="@+id/pollingRate"
+            android:layout_below="@+id/pollingRate"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/pinsLabel"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/checkAllButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pinsLabel"
+            android:layout_centerHorizontal="true"
+            android:text="@string/checkall" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/pinsLabel"
+            android:layout_alignRight="@+id/pinsLabel"
+            android:layout_below="@+id/checkAllButton"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin0" />
+
+            <CheckBox
+                android:id="@+id/pin1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin1" />
+
+            <CheckBox
+                android:id="@+id/pin2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/pin2" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout2"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin3" />
+
+            <CheckBox
+                android:id="@+id/pin4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin4" />
+
+            <CheckBox
+                android:id="@+id/pin5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="5dip"
+                android:text="@string/pin5" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout7"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout3"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin6" />
+
+            <CheckBox
+                android:id="@+id/pin7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin7" />
+
+            <CheckBox
+                android:id="@+id/pin8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin8" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout15"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip" >
+
+            <TextView
+                android:id="@+id/windowMinLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center|center_vertical"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+                android:text="@string/windowMinLabel"
+                android:textSize="8pt" />
+
+            <EditText
+                android:id="@+id/windowMin"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:text="@string/empty" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout6"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout5"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip" >
+
+            <TextView
+                android:id="@+id/windowMaxLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center|center_vertical"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+                android:text="@string/windowMaxLabel"
+                android:textSize="8pt" />
+
+            <EditText
+                android:id="@+id/windowMax"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:inputType="numberSigned"
+                android:text="@string/empty" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout6"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/autoScaling"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="10dip"
+                android:gravity="center"
+                android:text="@string/autoScale" />
+
+            <Button
+                android:id="@+id/setWindowButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginTop="10dip"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:text="@string/set"
+                android:textSize="8pt"
+                android:width="75dip" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/startPollingButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout11"
+            android:layout_marginBottom="10dip"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="10dip"
+            android:paddingBottom="10dip"
+            android:paddingTop="10dip"
+            android:text="@string/startPolling" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout11"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout4"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="10dip" >
+
+            <TextView
+                android:id="@+id/serverIPLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:paddingBottom="15dip"
+                android:paddingTop="15dip"
+                android:text="@string/serverIP"
+                android:textSize="8pt" />
+
+            <EditText
+                android:id="@+id/serverIP"
+                android:layout_width="0dip"
+                android:layout_height="fill_parent"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:layout_weight="1"
+                android:ems="10"
+                android:text="@string/empty" android:hint="@string/iphint"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout12"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout7"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin9" />
+
+            <CheckBox
+                android:id="@+id/pin10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin10" />
+
+            <CheckBox
+                android:id="@+id/pin11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin11" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout13"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout12"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin12" />
+
+            <CheckBox
+                android:id="@+id/pin13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin13" />
+
+            <CheckBox
+                android:id="@+id/pin14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin14" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout14"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout13"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin15" />
+
+            <CheckBox
+                android:id="@+id/pin16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin16" />
+
+            <CheckBox
+                android:id="@+id/pin17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin17" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout15"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout14"
+            android:layout_marginBottom="10dip"
+            android:layout_marginTop="10dip"
+            android:gravity="center" >
+
+            <CheckBox
+                android:id="@+id/pin18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:text="@string/pin18" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

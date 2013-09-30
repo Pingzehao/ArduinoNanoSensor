@@ -1,0 +1,8 @@
+MIDlet-1: Chat, , chat.Chat
+MIDlet-Jar-Size: 14579
+MIDlet-Jar-URL: Chat.jar
+MIDlet-Name: Chat
+MIDlet-Vendor: Vendor
+MIDlet-Version: 1.0
+MicroEdition-Configuration: CLDC-1.0
+MicroEdition-Profile: MIDP-2.0

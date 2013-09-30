@@ -1,0 +1,40 @@
+
+#######################################
+# Syntax Coloring Map For uOLED
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+uOLED	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+Cls	KEYWORD2
+PutPixel	KEYWORD2
+StartUp	KEYWORD2 
+Line	KEYWORD2 
+Rectangle	KEYWORD2 
+Circle	KEYWORD2 
+SetBackColor	KEYWORD2 
+Triangle	KEYWORD2 
+CopyPaste	KEYWORD2 
+Character	KEYWORD2 
+CharacterGraphic	KEYWORD2 
+Text	KEYWORD2 
+TextGraphic	KEYWORD2 
+TextButton	KEYWORD2
+AddBMPChar	KEYWORD2
+PutBMPChar	KEYWORD2
+DisplayControl	KEYWORD2
+ReadPixel	KEYWORD2
+SetPowerState	KEYWORD2
+SetContrast	KEYWORD2
+DeviceInfo	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################

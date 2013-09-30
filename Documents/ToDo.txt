@@ -1,0 +1,30 @@
+Make it not die on rotation, save it by using serializable or
+	Create a toArray and fromArray function for the graphs
+	Put arrays in parcelable
+	Find out what happens to the files onRotate
+	--Semifixed. Locked to Landscape.
+	
+Fix toast notification of changing graphs, maybe draw the graph you're looking at on the graph itself, maybe get rid of it since you can tell by axis
+Make it so you can't change graph display if humidity and temp aren't polling
+Polling for temperature and humidity as one, need both
+
+Make graph data loadable
+Swipe to change graphs
+Long touch on graph allows you to hide pins
+Start polling is for chip, temp, and humid
+Save filenames to an array and to preferences so you can choose which ones to email
+
+
+
+Save list of files in an Array then save to SharedPreferences
+	Only need to save one and can assume there are 8
+	Make it selectable from a list, like the Astro file browser, see if you can call on Astro to select files
+Make the data files loadable
+	Make it selectable from the SharedPreferences
+Make it send a screenshot of the graphs along with the e-mail
+
+3 terminal electro chem system
+e2v sensors, use potentiostat one in ours and check out their eval boards
+carbon filter for pump and humidity filter
+valve/pump
+filter types

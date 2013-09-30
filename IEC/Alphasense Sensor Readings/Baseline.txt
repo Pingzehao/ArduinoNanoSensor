@@ -1,0 +1,5 @@
+WE 218mv
+Aux 224mv
+nA/ppm -387
+mV/nA 0.8
+mV/ppm 309.6
